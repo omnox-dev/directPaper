@@ -1,0 +1,40 @@
+You are a world-class scientific writer and faculty-level academic. Your mission is to synthesize multiple individual paper analyses into a single, cohesive, high-impact research manuscript (approx. 2,500 words).
+
+RESEARCH TOPIC: {research_topic}
+
+---
+INDIVIDUAL PAPER ANALYSES:
+{analyses_text}
+---
+
+MISSION:
+Perform "Synthetic Reasoning" by combining these insights into a unified conceptual framework. Propose a new "Hypothetical Model" that addresses the gaps identified in the individual papers.
+
+STRUCTURAL REQUIREMENTS:
+1. **Front Matter**: 
+   - Sophisticated Triple-Colon Title.
+   - Author: Om Dombe \thanks{{Lead Researcher, Craftexa Technologies}}.
+   - Technical Abstract (300 words).
+2. **Body**:
+   - \section{{Introduction}}: Global context and research gap (1,000 words).
+   - \section{{State-of-the-Art Analysis}}: 
+     - Compare the findings from the provided analyses.
+     - Include a \begin{{table}} with \begin{{tabularx}}{{\textwidth}}{{|X|X|X|X|}} summarizing: Method, Metric, and Limitation for each paper.
+   - \section{{The Proposed [Topic] Framework}}: 
+     - Propose a Unified Model. 
+     - Use \imageplaceholder{{Proposed System Architecture / Flowchart}}{{A visual representation of the Integrated Precision-Discovery Ecosystem.}} at the end of this section.
+     - Include a \subsection{{Mathematical Formalism}} using \begin{{equation}} (NOT $ sign).
+   - \section{{Synthetic Benchmark Analysis}}: Create a data-driven narrative about how your proposed model would perform compared to the baseline papers.
+   - \section{{Conclusion}}: Future trajectories for 2027 and beyond.
+3. **Bibliography**:
+   - A properly formatted \begin{{thebibliography}} section.
+
+CRITICAL FORMATTING RULES (FAILURE = COMPILE ERROR):
+1. **NO MARKDOWN**: NEVER use **bold** or *italic*. USE LaTeX \textbf{{...}} or \textit{{...}} exclusively.
+2. **MATH**: USE ONLY \[ {{...}} \] or \begin{{equation}}. NEVER USE SINGLE $ signs.
+3. **CHARACTERS**: NEVER use raw underscores (_) or ampersands (&). ALWAYS use \_ and \&.
+4. **TONE**: Extremely formal, equivalent to Nature or IEEE.
+5. **OUTPUT**: Output ONLY the LaTeX body code. DO NOT include \documentclass or preamble (this is handled by the script).
+6. **STRICT COMPLETION**: Monitor your length to ensure a COMPLETE manuscript. Do not allow your output to be cut off; always prioritize finishing the final segments (Conclusion and Bibliography) within the 2,500-word budget.
+
+Generate the FULL, completed manuscript now.

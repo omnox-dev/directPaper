@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Research Downloads & Results
+downloads/
+*.pdf
+*.tex
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+manuscript.pdf
+manuscript.tex
+
+# Streamlit/OS
+.streamlit/
+.DS_Store
+Thumbs.db
