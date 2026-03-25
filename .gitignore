@@ -11,7 +11,7 @@ __pycache__/
 # Research Downloads & Results
 downloads/
 *.pdf
-*.tex
+manuscript.tex
 *.aux
 *.log
 *.out
